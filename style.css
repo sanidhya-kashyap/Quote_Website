@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #358597;
+    font-family: 'Dancing Script', cursive;
+    color: #99154e;
+}
+
+.container{
+    width: 70%;
+    height: 70%;
+    background-color: #F4A896 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+}
+
+/* #318fa5 */
+
+.inner{
+    background-color: #358597;
+    width: 90%;
+    height: 80%;
+    border-radius: 14px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number .icon{
+    /* background-color: #dddddd; */
+    border-radius: 0% 0% 50% 50%;
+    padding: 3px 6px;
+
+}
+.number .icon img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.number img:hover{
+    animation: rot 1s ease-in-out;
+}
+/* @keyframes rot{
+    from{
+        transform: rotate(-360deg);
+        
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+.text .start-quote{
+    font-size: 4rem;
+    padding: 0px 2rem;
+    color: wheat;
+
+}
+.text .quotes{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: wheat;
+}
+
+.text .author{
+    text-align: right;
+    padding: 0px 2rem;
+    color: wheat;
+}
+
+.text .button{
+    display: inline-block;
+    /* float: right; */
+    padding: 1rem 2rem;
+}
+
+.text #newQ{
+    background-color: #F4A896;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #358597;
+    font-weight: bold;
+}
